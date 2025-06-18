@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "crewai_opportunity_scanner"
+version = "0.1.0"
+description = "Multi-agent crew for identifying AI opportunities in eLearning"
+authors = ["Leo Duncan <leoduncan.elearning@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+crewai = "*"
+
+packages = [
+    { include = "src" }
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
